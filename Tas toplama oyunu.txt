@@ -1,0 +1,135 @@
+#include<stdio.h>
+#include<string.h>
+#include <time.h>
+ 
+int main()
+{
+	printf("TAS TOPLAMA OYUNUNA HOS GELDINIZ!!!\n");
+	int tas,hamle,islem,devam;
+	int k,b,tursayisi,top;
+	char kullanici;
+	int kul=0,bil=0;
+	printf("Kac tas toplanacak:");
+	scanf("%d",&tas);
+	printf("en fazla hamle:");
+	scanf("%d",&hamle);
+	printf("oyuna kim baslýcak (b/k)");
+	scanf("\n%c",&kullanici);
+	
+	islem=(tas-1)%(hamle+1);
+	
+	if(kullanici=='b')
+	{
+	    if(islem==0)
+		{
+			printf("B:%d\n",hamle);
+			
+		} 
+		else
+		{
+			printf("B:%d\n",islem);
+		}
+		while(devam=1)
+		{
+			printf("K:");
+			scanf("%d",&k);
+			tursayisi=(hamle+1)-(k+b);
+			printf("B:%d\n",tursayisi);
+			tas=(tas-(b+k));
+			if(tas==1)
+			{
+			  	if(tas='b')
+				  {
+				  	printf("oyun bitti kullanici kazandi");
+				  }
+			}
+			else
+			{
+			devam=1;	
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+return 	0;
+}
