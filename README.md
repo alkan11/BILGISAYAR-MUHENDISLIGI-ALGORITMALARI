@@ -1,1 +1,1 @@
-# BILGISAYAR-MUHENDISLIGI-ALGORITMALARI
+Bilgisayar  Muhendisligi Algoritmalari
