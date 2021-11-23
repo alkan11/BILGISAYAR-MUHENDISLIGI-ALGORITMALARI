@@ -1,1 +1,1 @@
-Bilgisayar  Muhendisligi Algoritmalari
+Bilgisayar Muhendisligi
